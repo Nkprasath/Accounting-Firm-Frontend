@@ -1,0 +1,175 @@
+body {}
+
+/*Navbar Styles*/
+#nbar {
+    width: 100%;
+}
+
+.navImg {
+    padding-top: 10px;
+}
+
+.len {
+    padding-right: 15px;
+}
+
+/*Title carousel */
+.titleimg {
+    margin: 0;
+    padding: 0;
+    width: 118%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.titleText {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.btton {
+    width: 250px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 25px;
+    background-color: #D3D3D3;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.btton2 {
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding: 30px 80px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.btton:hover, .btton2:hover {
+    color: white;
+    background-color: #0D4F8B;
+    border: 0px;
+}
+
+.carousel-control-next-icon {
+    filter: invert(1);
+}
+
+/* Features Tab */
+#features {
+    padding: 5% 8%;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    background-color: #F0F0F0;
+    line-height: 1.5rem;
+    padding: 5%;
+    margin: 5px 25px;
+    border: 2px solid #0D4F8B;
+    border-style: double;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #0D4F8B;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68
+}
+
+@media (max-width: 1024px) {
+    .feature-box {
+        margin: 5px 20px;
+    }
+}
+
+/*About Us Styles*/
+#abtUs {
+    color: #D3D3D3;
+    background: #0D4F8B;
+    border-top-right-radius: 120% 660px;
+    border-top-left-radius: 0;
+    margin-bottom: 10px
+}
+
+.head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.Contents {}
+
+.abtTxt {
+    padding-left: 50px;
+}
+
+.abtImg {
+    padding-top: 10px;
+}
+
+.btton3 {
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.bttom3:hover {
+    background-color: transparent;
+}
+
+@media (max-width: 1024px) {
+    #abtUs {
+        margin-bottom: 5px;
+    }
+
+    .btton3 {
+        margin-bottom: 10px;
+    }
+
+    .abtImg {
+        display: none;
+    }
+}
+
+/*Services Styles*/
+.serBox {
+    padding: 15px 10px;
+    line-height: 1.5rem;
+    margin: 5px 17px;
+    border: 2px solid #0D4F8B;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+
+.Box5 {
+    padding: 15px 40px;
+}
+
+@media (max-width: 1024px) {
+    .serBox {
+        float: none;
+        padding: 30px;
+        margin-top: 5px;
+    }
+}
