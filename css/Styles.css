@@ -8,7 +8,7 @@ a:link, a:hover, a:active, a:visited {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 30px;
+    bottom: 38px;
     right: 20px;
     z-index: 99;
     border-radius: none;
@@ -90,11 +90,12 @@ a:link, a:hover, a:active, a:visited {
 
 @media(max-width :1024px) {
     .titleText {
-        padding-top: 100px;
-        padding-left: 20px;
+        padding-top: 70px;
+        padding-left: 15px;
     }
 
     .btton2 {
+        padding: 10px 50px;
         margin-top: 220px;
     }
 }
@@ -281,3 +282,9 @@ iframe {
 .btn-sm:hover {
     color: orange;
 }
+
+@media (max-width: 1024px) {
+    iframe{
+        width: 170px;
+        height: 180px;
+    }
