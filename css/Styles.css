@@ -14,7 +14,7 @@ a:link, a:hover, a:active, a:visited {
     border-radius: none;
     outline: none;
     background-color: #0D4F8B;
-    color: white;
+    color: orange;
     cursor: pointer;
     padding: 15px;
     border-radius: 100px;
@@ -120,14 +120,14 @@ a:link, a:hover, a:active, a:visited {
     margin: 5px 30px;
     border: 5px solid #0D4F8B;
     border-style: double;
+    box-shadow: 0 0 15px #aaa;
+    border-radius: 15px;
+
 }
 
 .feature-box:hover {
     border: 5px solid orange;
     border-style: double;
-    -webkit-box-shadow: 0 8px 6px -6px black;
-    -moz-box-shadow: 0 8px 6px -6px black;
-    box-shadow: 0 8px 6px -6px black;
     color: orange;
 }
 
@@ -214,7 +214,6 @@ a:link, a:hover, a:active, a:visited {
     margin: 5px 17px;
     border: 2px solid #0D4F8B;
     text-align: center;
-    float: left;
     cursor: pointer;
 }
 
@@ -225,33 +224,11 @@ a:link, a:hover, a:active, a:visited {
     box-shadow: 3px 3px 5px 6px #ccc;
 }
 
-.Box5 {
-    padding: 28px 40px;
-}
-
-.Box6 {
-    padding: 0px 15px;
-    margin-right: 0px;
-}
-
-.Box8 {
-    padding: 30px 40px;
-}
-
 @media (max-width: 1024px) {
     .serBox {
         float: none;
         padding: 30px;
         margin-top: 5px;
-    }
-
-    .Box6 {
-        margin: 5px 17px;
-    }
-
-    .Box01, .Box02, .Box03, .Box04, .Box05, .Box06, .Box07, .Box08 {
-        padding: 0px 20px;
-        margin: 5px 17px;
     }
 
     .modal-body {
@@ -288,3 +265,5 @@ iframe {
         width: 170px;
         height: 180px;
     }
+
+@media (max-width:)
