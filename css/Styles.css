@@ -1,9 +1,28 @@
-body {
+body {}
 
-}
-a:link,a:hover, a:active,a:visited{
+a:link, a:hover, a:active, a:visited {
     color: white;
     text-decoration: none;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99;
+    border-radius: none;
+    outline: none;
+    background-color: #0D4F8B;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 25px;
+}
+
+#myBtn:hover {
+    background-color: #555;
 }
 
 /*Navbar Styles*/
@@ -34,8 +53,9 @@ a:link,a:hover, a:active,a:visited{
 
 .titleText {
     position: absolute;
+    text-align: center;
     padding-top: 100px;
-    padding-left: 30px;
+    padding-left: 420px;
 }
 
 .btton {
@@ -48,7 +68,7 @@ a:link,a:hover, a:active,a:visited{
     border: 2px solid black;
 }
 
-.btton a{
+.btton a {
     color: black;
 }
 
@@ -68,6 +88,16 @@ a:link,a:hover, a:active,a:visited{
     border: 0px;
 }
 
+@media(max-width :1024px) {
+    .titleText {
+        padding-top: 100px;
+        padding-left: 20px;
+    }
+
+    .btton2 {
+        margin-top: 220px;
+    }
+}
 
 .carousel-control-next-icon {
     filter: invert(1);
@@ -86,7 +116,7 @@ a:link,a:hover, a:active,a:visited{
     background-color: #F0F0F0;
     line-height: 1.5rem;
     padding: 5%;
-    margin: 5px 25px;
+    margin: 5px 30px;
     border: 5px solid #0D4F8B;
     border-style: double;
 }
@@ -97,6 +127,7 @@ a:link,a:hover, a:active,a:visited{
     -webkit-box-shadow: 0 8px 6px -6px black;
     -moz-box-shadow: 0 8px 6px -6px black;
     box-shadow: 0 8px 6px -6px black;
+    color: orange;
 }
 
 #features p {
@@ -172,6 +203,10 @@ a:link,a:hover, a:active,a:visited{
 }
 
 /*Services Styles*/
+#serv {
+    margin-top: 50px;
+}
+
 .serBox {
     padding: 15px 12px;
     line-height: 1.5rem;
@@ -184,9 +219,9 @@ a:link,a:hover, a:active,a:visited{
 
 .serBox:hover {
     border: 2px solid #808080;
-    -moz-box-shadow: inset 0 0 10px #000000;
-    -webkit-box-shadow: inset 0 0 10px #000000;
-    box-shadow: inset 0 0 10px #000000;
+    -moz-box-shadow: 3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow: 3px 3px 5px 6px #ccc;
 }
 
 .Box5 {
@@ -208,19 +243,41 @@ a:link,a:hover, a:active,a:visited{
         padding: 30px;
         margin-top: 5px;
     }
-    .Box6{
+
+    .Box6 {
         margin: 5px 17px;
     }
-    .Box01, .Box02, .Box03, .Box04, .Box05, .Box06, .Box07, .Box08{
+
+    .Box01, .Box02, .Box03, .Box04, .Box05, .Box06, .Box07, .Box08 {
         padding: 0px 20px;
-        margin:5px 17px;
+        margin: 5px 17px;
     }
-    .modal-body{
-        font-size: 1.5rem;
+
+    .modal-body {
+        font-size: 1rem;
     }
 }
 
 .modal-header, .modal-footer {
     background-color: #0D4F8B;
     color: white;
+}
+
+/*footer styles*/
+#foot {
+    margin-top: 50px;
+    background-color: #0D4F8B;
+}
+
+h6 {
+    color: orange;
+}
+
+iframe {
+    width: 250px;
+    height: 200px;
+}
+
+.btn-sm:hover {
+    color: orange;
 }

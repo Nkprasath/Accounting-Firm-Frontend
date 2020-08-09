@@ -43,7 +43,6 @@
             </nav>
     </section>
     <!-- Navbar end -->
-
     <!-- Title carousel -->
     <section id="firstcarousel">
         <div id="img-carousel" class="carousel slide" data-ride="false">
@@ -56,7 +55,8 @@
                     <img src="img\tImg1.jpeg" class="titleimg" alt="">
                 </div>
                 <div class="carousel-item">
-                    <a href="#features"><button type="button" class="btton2">Start Now</button></a></div>
+                    <a href="#features"><button type="button" class="btton2">Start Now</button></a>
+                </div>
                 <img src="img\tImg2.jpg" class="titleimg" alt="">
             </div>
             <a class="carousel-control-next" href="#img-carousel" role="button" data-slide="next">
@@ -67,7 +67,6 @@
     </section>
 
     <!-- End Title carousel -->
-
     <!-- Features Tab -->
     <section id="features">
         <div class="row">
@@ -95,6 +94,8 @@
         </div>
     </section>
 
+    <button onclick="topFunction()" id="myBtn" title="Go to top">⇪</button>
+
     <!-- About Us-->
     <section id="abtUs">
         <div class="head">
@@ -104,7 +105,8 @@
             <div class="container-fluid ">
                 <div class="row">
                     <div class="col-lg-6 abtTxt">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        <h3>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                         </h3>
@@ -118,7 +120,6 @@
         </div>
     </section>
     <!-- End About Us -->
-
     <!-- Our Services -->
     <section id="serv">
         <div class="head">
@@ -126,74 +127,76 @@
         </div>
         <!-- Services Boxes -->
         <div class="container">
-            <!--Box 1-->
-            <div class="serBox" data-toggle="modal" data-target="#Box01">
-                <div class="card-img-top">
-                    <i class="Servicon fas fa-chart-line fa-3x"></i>
-                </div>
-                <div class="card-body" data-toggle="modal" data-target="#exampleModalCenter">
-                    <h5 class="card-title">Start a Business</h5>
+            <div class="row">
+                <!--Box 1-->
+                <div class="serBox col-md" data-toggle="modal" data-target="#Box01">
+                    <div class="card-img-top">
+                        <i class="Servicon fas fa-chart-line fa-3x"></i>
+                    </div>
+                    <div class="card-body" data-toggle="modal" data-target="#exampleModalCenter">
+                        <h5 class="card-title">Start a Business</h5>
 
+                    </div>
+                </div>
+                <!--Box 2-->
+                <div class="serBox col-md" data-toggle="modal" data-target="#Box02">
+                    <i class="Servicon fas fa-copyright fa-3x"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Intellectual Property</h5>
+
+                    </div>
+                </div>
+                <!--Box 3-->
+                <div class="serBox col-md" data-toggle="modal" data-target="#Box03">
+                    <i class="Servicon fas fa-exchange-alt fa-3x"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Change in Business</h5>
+
+                    </div>
+                </div>
+                <!--Box 4-->
+                <div class="serBox col-md" data-toggle="modal" data-target="#Box04">
+                    <i class="Servicon fas fa-file-contract fa-3x"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Registration Service</h5>
+
+                    </div>
                 </div>
             </div>
-            <!--Box 2-->
-            <div class="serBox" data-toggle="modal" data-target="#Box02">
-                <i class="Servicon fas fa-copyright fa-3x"></i>
-                <div class="card-body">
-                    <h5 class="card-title">Intellectual Property</h5>
+            <div class="row">
+                <!--Box 5-->
+                <div class="serBox col-md Box5" data-toggle="modal" data-target="#Box05">
+                    <div class="card-img-top">
+                        <i class="Servicon fas fa-money-check-alt fa-3x"></i>
+                    </div>
+                    <div class="card-body ">
+                        <h5 class="card-title">Tax Filing</h5>
 
+                    </div>
+                </div>
+                <!--Box 6-->
+                <div class="serBox col-md Box6" data-toggle="modal" data-target="#Box06">
+                    <img src="https://img.icons8.com/carbon-copy/80/000000/accounting.png" />
+                    <div class="card-body">
+                        <h5 class="card-title">Accounting &<br /> Compliance Service</h5>
+
+                    </div>
+                </div>
+                <!--Box 7-->
+                <div class="serBox col-md" data-toggle="modal" data-target="#Box07">
+                    <i class="Servicon fas fa-file-alt fa-3x"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Legal Documentation <br />Serivices</h5>
+                    </div>
+                </div>
+                <!--Box 8-->
+                <div class="serBox col-md" data-toggle="modal" data-target="#Box08">
+                    <i class="Servicon fas fa-handshake fa-4x"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">Consulatation Service</h5>
+                    </div>
                 </div>
             </div>
-            <!--Box 3-->
-            <div class="serBox" data-toggle="modal" data-target="#Box03">
-                <i class="Servicon fas fa-exchange-alt fa-3x"></i>
-                <div class="card-body">
-                    <h5 class="card-title">Change in Business</h5>
-
-                </div>
-            </div>
-            <!--Box 4-->
-            <div class="serBox" data-toggle="modal" data-target="#Box04">
-                <i class="Servicon fas fa-file-contract fa-3x"></i>
-                <div class="card-body">
-                    <h5 class="card-title">Registration Service</h5>
-
-                </div>
-            </div>
-
-            <!--Box 5-->
-            <div class="serBox Box5" data-toggle="modal" data-target="#Box05">
-                <div class="card-img-top">
-                    <i class="Servicon fas fa-money-check-alt fa-3x"></i>
-                </div>
-                <div class="card-body ">
-                    <h5 class="card-title">Tax Filing</h5>
-
-                </div>
-            </div>
-            <!--Box 6-->
-            <div class="serBox Box6" data-toggle="modal" data-target="#Box06">
-                <img src="https://img.icons8.com/carbon-copy/80/000000/accounting.png" />
-                <div class="card-body">
-                    <h5 class="card-title">Accounting &<br /> Compliance Service</h5>
-
-                </div>
-            </div>
-            <!--Box 7-->
-            <div class="serBox" data-toggle="modal" data-target="#Box07">
-                <i class="Servicon fas fa-file-alt fa-3x"></i>
-                <div class="card-body">
-                    <h5 class="card-title">Legal Documentation <br />Serivices</h5>
-                </div>
-            </div>
-            <!--Box 8-->
-            <div class="serBox" data-toggle="modal" data-target="#Box08">
-                <i class="Servicon fas fa-handshake fa-4x"></i>
-                <div class="card-body">
-                    <h5 class="card-title">Consulatation Service</h5>
-                </div>
-            </div>
-
         </div>
         <!-- Button trigger modal -->
         <!-- Box01 content -->
@@ -396,6 +399,137 @@
                 </div>
             </div>
         </div>
+    </section>
+
+    <!-- End Services -->
+    <!--Footer-->
+    <section id="foot">
+        <footer class="page-footer font-small pt-4">
+            <div class="container text-center text-md left">
+                <div class="row text-center text-md-left mt-3 pb-3">
+                    <!--columns 1-->
+                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Office Map</h6>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d972.17018008963!2d80.1009006291931!3d12.928230706539647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525f110049b513%3A0x9b09d2a68f46d8ff!2sPlot%20No%205%2C11%20th%20street%2C%20Lakshmipuram%20extension%2C%20Tambaram%20West%2C%20Tambaram%2C%20Chennai%2C%20Tamil%20Nadu%20600045!5e0!3m2!1sen!2sin!4v1594304476016!5m2!1sen!2sin"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <!--End columns 1-->
+
+                    <hr class="w-100 clearfix d-md-none">
+
+                    <!--Column 2-->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Navigation</h6>
+                        <p>
+                            <a href="#features">Features</a>
+                        </p>
+                        <p>
+                            <a href="#abtUs">About Us</a>
+                        </p>
+                        <p>
+                            <a href="#serv">Our Services</a>
+                        </p>
+                    </div>
+                    <!--End Column 2-->
+
+                    <hr class="w-100 clearfix d-md-none">
+
+                    <!-- Column 3-->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+                        <p>
+                            <a href="#Box01">Start a Business</a>
+                        </p>
+                        <p>
+                            <a href="#!">Registration Service</a>
+                        </p>
+                        <p>
+                            <a href="#!">Accounting & Compliance Service</a>
+                        </p>
+                        <p>
+                            <a href="#!">Consultation Service</a>
+                        </p>
+                    </div>
+                    <!--End Colums 3-->
+
+                    <hr class="w-100 clearfix d-md-none">
+
+                    <!--Column 4-->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" style="color:white">
+                        <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+                        <p>
+                            <i class="fas fa-home mr-3"></i> Lakshmipuram, Chennai</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                        <p>
+                            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                    </div>
+                </div>
+                <!-- Footer links -->
+
+                <hr>
+
+                <!-- Grid row -->
+                <div class="row d-flex align-items-center">
+
+                    <!-- Grid column -->
+                    <div class="col-md-7 col-lg-8">
+
+                        <!--Copyright-->
+                        <p class="text-center text-md-left">© 2020 Copyright:
+                            <a href="">
+                                <strong> Company Name</strong>
+                            </a>
+                            • <a href="">About Developer</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                        <!-- Social buttons -->
+                        <div class="text-center text-md-right">
+                            <ul class="list-unstyled list-inline">
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm  mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm  mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm  mx-1">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="btn-floating btn-sm  mx-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            </div>
+
+        </footer>
     </section>
 
 
