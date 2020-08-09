@@ -266,4 +266,13 @@ iframe {
         height: 180px;
     }
 
-@media (max-width:)
+    .abtDev{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:700px){
+    .abtDev{
+        font-size: 13px;
+    }
+}
