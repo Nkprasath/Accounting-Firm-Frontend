@@ -1,4 +1,4 @@
-Import InstantSearch from "./InstantSearch.js"
+import InstantSearch from "./InstantSearch.js"
 
 const searchUser = document.querySelector("#searchServices");
 const InstantSearchServices = new InstantSearch(searchUsers,{
