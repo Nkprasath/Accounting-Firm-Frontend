@@ -28,7 +28,7 @@ class InstantSearch{
     let delay;
 
       this.elements.input.addEventListener("input", () => {
-      clearTimeout(delay):
+      clearTimeout(delay);
 
       const query = this.elements.input.value;
 
