@@ -114,5 +114,3 @@ createResultElement(result) {
        this.elements.main.classList.toggle("instant-search--loading",b);
      }
 
-
-export default InstantSearch;
