@@ -115,3 +115,5 @@ createResultElement(result) {
      }
 
 };
+
+export default InstantSearch;
